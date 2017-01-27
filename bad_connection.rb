@@ -17,7 +17,7 @@ while true do
     puts "NO, THIS IS NOT A PET STORE"
 
   elsif
-    user_input.length.times do |i|
+    user_input.length.times do |i|g
       if user_input[i] == user_input[i].downcase
         puts "I AM HAVING A HARD TIME HEARING YOU!"
         break
