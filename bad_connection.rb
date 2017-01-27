@@ -2,7 +2,6 @@ puts "HELLO, THIS IS A GROCERY STORE!"
 goodbye_count = 0
 while true do
   user_input = gets.chomp
-  input_array = user_input.split
   if user_input == ""
     puts "HELLO?!"
   elsif user_input == "GOODBYE!" && goodbye_count == 0
