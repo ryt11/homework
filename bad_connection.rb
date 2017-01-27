@@ -15,13 +15,8 @@ while true do
   elsif user_input == user_input.upcase
     puts "NO, THIS IS NOT A PET STORE"
 
-  elsif
-    user_input.length.times do |i|
-      if user_input[i] == user_input[i].downcase
-        puts "I AM HAVING A HARD TIME HEARING YOU!"
-        break
-      end
-    end
+  else
+    puts "I AM HAVING A HARD TIME HEARING YOU."
   end
 end
 
