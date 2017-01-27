@@ -17,12 +17,18 @@ while true do
     puts "NO, THIS IS NOT A PET STORE"
 
   elsif
-    input_array.each do |letter|
-    if letter == letter.downcase
-      puts "I AM HAVING A HARD TIME HEARING YOU!"
-      break
+    user_input.length.times do |i|
+      if user_input[i] == user_input[i].downcase
+        puts "I AM HAVING A HARD TIME HEARING YOU!"
+        break
       end
     end
   end
 end
-  
+
+=begin
+    input_array.each do |letter|
+    if letter == letter.downcase
+      puts "I AM HAVING A HARD TIME HEARING YOU!"
+      break
+=end
